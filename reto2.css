@@ -1,0 +1,31 @@
+/*reto 2*/
+h1{
+    background-color: rgb(27, 92, 70);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(230, 255, 194);
+}
+
+.intro{
+    color: rgb(216, 231, 182);
+    background-color: rgb(7, 131, 2);
+    padding-right: 50px;
+}
+
+p {
+    background-image: url("soyYo.jpg");
+}
+
+figcaption{
+    color: rgb(8, 78, 57);
+}
+
+
+
+h3{
+    color: rgb(4, 119, 4);
+}

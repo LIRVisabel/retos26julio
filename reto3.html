@@ -1,0 +1,74 @@
+<!--RETO3- en esta pág. indica tus aficiones. Añade estilos para hacerlo
+mas vistozo. Enlaza esta pág. con la anterior. Y crea un formulario-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Isabel Rosales</title>
+    <link rel="stylesheet" href="reto3.css">
+
+</head>
+<body>
+    <header> 
+        <h1>ISABEL ROSALES VEREAU</h1>
+    </header>
+    <h3 class="intro">Hola otra vez! en esta página te contare un poco de mis aficiones.</h3>
+    <hr>
+    <p>Adjunto mi CV: <a href= "http://127.0.0.1:5500/maquetacion/retos/reto2.html"> click para más info. </a> </p>
+    <p>Me llamo Luisa Isabel, pero me gusta que me digan Isabel. Nací en Perú, en una ciudad que se llama Trujillo también conocida
+    como <i> La Ciudad de la eterna primavera</i>, porque el clima es muy agradable, no hay extremos climáticos y esta muy
+    cerca a <b>la playa!!.</b>
+    Me encanta la comida, por eso, es mi aficción favorita. </p>
+   <h3> Mis platos preferidos son: </h3>
+   <div id="Peru">De Perú-Trujillo
+       <hr>
+       el cebiche </div>
+
+    <div id="Mexico">De Mexico-Tijuana
+        <hr>
+        Los churro</div>
+    
+    <hr>
+    <p>También me gusta hacerles fotos para recordar el sabor</p>
+    <figure>
+        <img src= "marisco.jpg"
+            alt= "marisco"
+            width= "200"
+            height="150">
+        <figcaption> Marisco en el puerto de Trujillo.</figcaption>
+        </figure>  
+    <figure>
+        <img src= "churro.jpg"
+                alt= "puesto de churros"
+                width= "200"
+                height="150">
+        <figcaption>Puesto de churros en Ensenada. </figcaption>
+        </figure>
+
+<p><ins>FORMULARIO DE CONTACTO </ins></p>
+<h4> enviame un email</h4>
+<form method="" action="">
+    <ul>
+        <li>
+    <!-- <legend>Nombre</legend> -->
+            <label for="nombre">Nombre:</label>
+            <input type = "text" id= "nombre" nombre="user_name">
+        </li>
+        <li>
+            <label for = "mail">Correo electrónico:</label>
+            <input type = "email" id = "mail" nombre = "user_mail">
+        </li>
+        <li>
+            <label for = "msg" > Mensaje: </label>
+            <textarea id = "msg" nombre = "user_message"></textarea>
+        </li>
+    </ul>
+<li class = "button">
+    <button type = "submit"> Enviar mensaje</button>  
+</li>
+
+</form>
+

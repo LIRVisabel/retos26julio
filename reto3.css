@@ -1,0 +1,107 @@
+h1{
+    background-color: rgb(20, 134, 96);
+    color: rgb(180, 231, 79);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(230, 255, 194);
+}
+.intro{
+    color:rgba(230, 56, 85, 0.884);
+}
+
+p{
+    color: rgb(214, 18, 126);
+}
+
+div{
+    width: 100px;
+    height: 50px;
+    padding: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#Peru{
+    background-color: rgb(216, 60, 60);
+    color: white;
+    /* float: right; */
+    clear: right;
+}
+
+#Mexico{  
+    background-color: rgba(24, 90, 4, 0.521);
+    color: white ; 
+    /* float: left; */
+    clear: left;
+}
+figure{
+    color:green;
+}
+
+form{
+    /*centrar formulario*/
+    margin : auto;
+    width : 400px;
+    /*esquema del formulario*/
+    padding : 20px;
+    border : 1px solid coral;
+    border-radius: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    /*para borrar los puntos de la lista*/
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+}
+form li + li{
+    margin-top: 10px;
+}
+
+label{
+    /*tamaño y alineción uniforme*/
+    display:block;
+    /* width: 2px; */
+    text-align:justify;
+}
+
+input, 
+textarea{
+    /*para poner a todos los campos la misma configuración, por defecto, las áreas tienen tipo de letra monosespaciadas*/
+    font: 1em sans-serif;
+    /*tamaño uniforme del campo*/
+    width :300px;
+    box-sizing: border-box;
+    /* hacer coincidir los bordes del campo del form*/
+    border: 1px solid chocolate;
+}
+input:focus, 
+textarea:focus {
+    /*destacado adicional para el elemento cursor*/
+    border-color: green;
+}
+textarea {
+    /*alinear los campos de texto multilinea con sus etiquetas*/
+    vertical-align: top;
+    /*proporcionar espacio para escribir texto*/
+    height: 50px;
+}
+
+.button{
+    /*alinear los botones con los campos de texto*/
+    padding-left: 30px; /*mismo tamaño q los elementos de la etiqueta*/
+    
+}
+
+button{
+    /*este margen adicional representa aprox- el mismo espacio entre las etiquetas y sus campos el texto*/
+    margin-top: 20px;
+}
